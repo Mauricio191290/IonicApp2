@@ -1,5 +1,6 @@
 <ion-content style="text-align:center !important;">
-  <form class="example-form" #formUser="ngForm">
+  
+  <form class="example-form" #formUser="ngForm" color = "primary">
     <ion-row>
       <ion-col>
          <mat-form-field class="example-full-width" >
@@ -17,7 +18,7 @@
         </mat-form-field>
         <br>
         <br>
-        <ion-button (click)="onSubmit(formUser)">
+        <ion-button (click)="onSubmit(formUser)" color="success">
           Submit
         </ion-button>
       </ion-col>
